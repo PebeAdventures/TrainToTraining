@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrainToTraining.Model
+namespace TrainToTraining.Model.TreeModel
 {
     public class Tree
     {
 
-        public String Name { get; set; }
+        public string Name { get; set; }
         public TreeType Type { get; set; }
 
         public TreeQuality Quality { get; set; }

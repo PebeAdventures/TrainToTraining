@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrainToTraining.Model
+namespace TrainToTraining.Model.SeedModel
 {
-    public enum TreeQuality
+    public enum SeedQuality
     {
         BAD,
         POOR,
@@ -14,7 +14,6 @@ namespace TrainToTraining.Model
         GOOD,
         EXCELENT,
         PERFECT
-
 
     }
 }

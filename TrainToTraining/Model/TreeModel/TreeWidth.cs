@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrainToTraining.Model
+namespace TrainToTraining.Model.TreeModel
 {
     public class TreeWidth
     {
