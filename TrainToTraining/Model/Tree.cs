@@ -16,6 +16,11 @@ namespace TrainToTraining.Model
 
         public TreeSize Size { get; set; }
 
+        public TreeWidth Width { get; set; }
+
+        public HealthCondition Condition { get; set; }
+
+        public TreeAge Age { get; set; }
 
 
 
