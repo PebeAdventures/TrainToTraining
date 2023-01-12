@@ -8,11 +8,11 @@ using TrainToTraining.Model.TreeModel;
 
 namespace TrainToTraining.GrowEngine
 {
-    public class TreeFactory : ITreeFactory
+    public class SeedFactory : ISeedFactory
     {
-        public Tree Create(Seed seed)
+        public Seed Create(Tree tree)
         {
-            return new Tree();
+            throw new NotImplementedException();
         }
     }
 }
