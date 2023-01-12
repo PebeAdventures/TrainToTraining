@@ -17,9 +17,9 @@ namespace CommonTasks
             return outputList;
         }
 
-        private List<string> CalculateFibonacci(int start, int stop)
+        private List<string> CalculateFibonacci(long start, long stop)
         {
-            var fibboList = new Dictionary<int, int>
+            var fibboList = new Dictionary<long, long>
             {
                 { 1, 1 },
                 { 2, 1 }
@@ -35,7 +35,7 @@ namespace CommonTasks
             return outputList;
         }
 
-        private List<string> PrepareTheScope(Dictionary<int, int> fibboList, int start)
+        private List<string> PrepareTheScope(Dictionary<long, long> fibboList, long start)
         {
             List<string> output = new List<string>();
             output = fibboList.Where(x => x.Key >= start).Select(x => x.Value.ToString()).ToList();

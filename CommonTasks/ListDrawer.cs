@@ -9,9 +9,9 @@ namespace CommonTasks
     public class ListDrawer
     {
 
-        public void Draw(List<string> list, int start)
+        public void Draw(List<string> list, long start)
         {
-            int i = start;
+            long i = start;
             foreach (var item in list)
             {
 

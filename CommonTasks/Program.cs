@@ -6,9 +6,9 @@
 using CommonTasks;
 
 Console.WriteLine("Podaj początek ciągu");
-int start = Convert.ToInt32(Console.ReadLine());
+long start = long.Parse(Console.ReadLine());
 Console.WriteLine("Podaj koniec ciągu");
-int end = Convert.ToInt32(Console.ReadLine());
+long end = long.Parse(Console.ReadLine()); ;
 ScopeOfCalculation scope = new()
 {
     Start = start,
