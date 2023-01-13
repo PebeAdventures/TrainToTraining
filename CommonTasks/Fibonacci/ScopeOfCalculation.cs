@@ -1,4 +1,4 @@
-﻿namespace CommonTasks
+﻿namespace CommonTasks.Fibonacci
 {
     public class ScopeOfCalculation
     {
